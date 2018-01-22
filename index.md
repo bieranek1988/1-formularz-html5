@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/bieranek1988/1-formularz-html5/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+    <form action="https://formspree.io/kamil.bieranowski.1988@wp.pl" method="post">
+        <label for="firstname">Imię:</label><br>
+        <input type="text" name="name" id="firstname"><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <label for="e-mail">e-mail:</label><br>
+        <input type="text" name="e-mail" id="e-mail"><br>
+        <label for="phone-number">Telefon:</label><br>
+        <input type="text" name="phone-number" id="phone-number"><br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+        <label for="city">Wybór miasta:</label><br>
+        <select name="city" id="city">
+            <option value="city">Kraków:</option>
+            <option value="city">Warszawa:</option>
+            <option value="city">Gdańsk:</option>
+        </select><br>
 
-1. Numbered
-2. List
+        <label for="gender">Płeć:</label><br>
+        <label for="gender">Kobieta:</label>
+        <input type="radio" name="gender" value="female" id="gender">
+        <label for="gender">Mężczyzna:</label>
+        <input type="radio" name="gender" value="male"><br>
 
-**Bold** and _Italic_ and `Code` text
+        <input type="checkbox" name="consent" value="consent">
+        <label for="message">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
 
-[Link](url) and ![Image](src)
-```
+        <label for="message">Wiadomość:</label><br>
+        <textarea name="<message>" id="message" cols="60" rows="10"></textarea><br>
+        <input type="submit" value="Wyslij">
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bieranek1988/1-formularz-html5/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+    </form>
+
+</body>
+
+</html>
